@@ -13,6 +13,17 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  h1 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
+    font-size: 2.2rem;
+    span {
+      color: var(--green);
+      letter-spacing: -0.2rem;
+    }
+  }
+
   button {
     font-size: 1rem;
     color: #fff;
