@@ -35,6 +35,22 @@ export const Container = styled.div`
       &.withdraw {
         color: var(--red);
       }
+
+      button {
+        width: 2rem;
+        background: none;
+        border: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        transition: all 0.2s ease;
+
+        &:hover {
+          filter: brightness(0.5);
+          transform: scale(1.1);
+        }
+      }
     }
   }
 `;
