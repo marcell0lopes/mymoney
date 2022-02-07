@@ -1,4 +1,4 @@
-# MyMoney
+# 💸 MyMoney
 
 ## Aplicação Web para controle financeiro feito em React e TypeScript
 
